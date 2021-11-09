@@ -1,0 +1,112 @@
+<<<<<<< HEAD
+body{
+    
+    height: 100vh;
+    background-image: url(image/wallpaper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-y: center;
+    background-position-y: bottom;
+    background-attachment:fixed ;
+}
+nav{
+    color: rgb(127, 132, 136);
+}
+
+.fst-italic{
+    padding-top: 17%;
+    margin-bottom: 10%;
+    color: rgb(31, 109, 31);
+    font: italic;
+    text-shadow: 2px 2px 4px lightslategray;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    margin-left: 2rem;
+    padding-top: 17%;
+    font-size: 60px;
+    color: rgb(31, 109, 31);
+    font: italic;
+    text-shadow: 2px 2px 4px lightslategray;
+    text-align:left;
+    margin-left: 3px ;
+}
+
+.card-text{
+    align-items: center;
+    width: 100vh;
+    border: none;
+    margin:3rem;
+    color:rgb(31, 109, 31);
+    font: italic;
+    font-size: 20px;
+    font-w
+}
+.card-mb-3{
+    margin-left: 2rem;
+    text-align:bottom left;
+    padding-top: 3%;
+    border: none;
+}
+.col-md-4{
+    border: radius 5px;
+=======
+body{
+    
+    height: 100vh;
+    background-image: url(image/wallpaper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-y: center;
+    background-position-y: bottom;
+    background-attachment:fixed ;
+}
+nav{
+    color: rgb(127, 132, 136);
+}
+
+.fst-italic{
+    padding-top: 17%;
+    margin-bottom: 10%;
+    color: rgb(31, 109, 31);
+    font: italic;
+    text-shadow: 2px 2px 4px lightslategray;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    margin-left: 2rem;
+    padding-top: 17%;
+    font-size: 60px;
+    color: rgb(31, 109, 31);
+    font: italic;
+    text-shadow: 2px 2px 4px lightslategray;
+    text-align:left;
+    margin-left: 3px ;
+}
+
+.card-text{
+    align-items: center;
+    width: 100vh;
+    border: none;
+    margin:3rem;
+    color:rgb(31, 109, 31);
+    font: italic;
+    font-size: 20px;
+    font-w
+}
+.card-mb-3{
+    margin-left: 2rem;
+    text-align:bottom left;
+    padding-top: 3%;
+    border: none;
+}
+.col-md-4{
+    border: radius 5px;
+>>>>>>> 5b590ccd8c203d5936ddb5f92798adb69ddcbfd3
+}

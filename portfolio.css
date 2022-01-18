@@ -1,75 +1,89 @@
-body{
-    
-    height: 100vh;
-    background-image: url(image/wallpaper.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position-y:center;
-    background-attachment:fixed ;
+body {
+  height: 100vh;
+  background-image: url(image/wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-attachment: fixed;
 }
-.navbar-bar{
-   background-color: darkgrey;
+.navbar-bar {
+  background-color: darkgrey;
 }
-
-.fst-italic{
-    padding-top: 9%;
-    margin-bottom: 0rem;
-    color: rgb(31, 109, 31);
-    font: italic;
-    text-shadow: 2px 2px 4px lightslategray;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-}
-.about{
-    margin-left: 7rem;
-    padding-top: 17%;
-    font-size: 60px;
-    color: rgb(31, 109, 31);
-    font: italic;
-    text-shadow: 2px 2px 4px lightslategray;
-    text-align:left;
-
+.second-image {
+  margin-top: 3rem;
+  margin-left: 8rem;
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background-blend-mode: lighten;
 }
 
-.card-text{
-    align-items: flex-start;
-    width: 100vh;
-    border: none;
-    margin-left:10rem;
-    color:rgb(31, 109, 31);
-    font: italic;
-    font-size: 20px;
-    text-align: center;
+.fst-italic {
+  padding-top: 9%;
+  margin-bottom: 0rem;
+  color: rgb(31, 109, 31);
+  font: italic;
+  text-shadow: 2px 2px 4px lightslategray;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
 }
-.card-mb-3{
-    margin-left: 9rem;
-    text-align: center ;
-    margin-top: 3rem;
-    border: none;
-    max-width: 800px;
+.about {
+  margin-left: 7rem;
+  padding-top: 17%;
+  font-size: 60px;
+  color: rgb(31, 109, 31);
+  font: italic;
+  text-shadow: 2px 2px 4px lightslategray;
+  text-align: left;
 }
 
-.navbarbottom{
-    text-align: center;
-    background-color: lightslategrey;
-    font-size: 20px;
-    color: rgb(31, 109, 31);
-    font: italic;
-    text-shadow: 2px 2px 4px lightslategray;
+.card-text {
+  align-items: flex-start;
+  width: 100vh;
+  border: none;
+  margin-left: 10rem;
+  color: rgb(31, 109, 31);
+  font: italic;
+  font-size: 20px;
+  text-align: center;
 }
-.nav-link2{
-    margin-left: 14rem;
-    font-size: 20px;
-    color: rgb(31, 109, 31);
-    font: italic;
-    text-shadow: 2px 2px 4px lightslategray;
+.card-mb-3 {
+  margin-left: 9rem;
+  text-align: center;
+  margin-top: 3rem;
+  border: none;
+  max-width: 800px;
 }
-img{
-    margin-top: 3rem;
-    margin-left: 8rem;
-    height: 300px;
-    width: 300px;
-    border-radius: 40px;
-    background-blend-mode: lighten;
+
+.navbarbottom {
+  position: bottom;
+  width: 100%;
+  background-color: lightslategray;
+  color: rgb(31, 109, 31);
+  text-align: center;
+}
+.nav-link2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 14rem;
+  font-size: 20px;
+  color: rgb(31, 109, 31);
+  font: italic;
+  text-shadow: 2px 2px 4px lightslategray;
+}
+img {
+  margin-top: 3rem;
+  margin-left: 8rem;
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  background-blend-mode: lighten;
+}
+.Contacts {
+  height: 3rem;
+  width: 100;
+}
+.navbarbottom-first {
+  width: 100%;
 }
